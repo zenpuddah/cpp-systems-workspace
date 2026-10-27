@@ -1,0 +1,15 @@
+# Generated output and local state
+build/
+out/
+artifacts/
+reports/
+*.log
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
