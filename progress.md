@@ -13,12 +13,12 @@ This workspace contains technical specifications and implementation progress onl
 | A1–A3 TCP server | Passed | Component ledger and unit/integration evidence in tools repository |
 | A4–A5 Inspector/workloads/queue | Passed | Native report, independent workload oracle, queue/TSan evidence |
 | A6 Public verification and handoff | Passed and handed over | public-v1 at 7d0759ca9535ea10d056400a9db435212c4d67c8 |
-| B0–B2 Private reference/workbook/Q cards | B0 passed; B1/B2 in progress | Independent allowlisted baseline validated; private-only agent ownership |
-| B3–B4 Companion/reuse/CLion | In progress; GUI gate pending | Companion implementation, static config validation; UI-access probe timed out |
+| B0–B2 Private reference/workbook/Q cards | Passed | Independent reference/starter pinned; 25-task catalog and corrected author sequence verified |
+| B3–B4 Companion/reuse/CLion | B3/CLI reuse/static checks passed; GUI gate pending | 37 companion tests; actual-catalog workflow; interactive UI not run |
 
 ## One next action
 
-Finish and integrate private workbook/companion slices, validate cumulative author sequence and runner privacy/durability, then pin workbook-start without rewriting the imported baseline.
+Perform and record the required CLion interactive workflow in the private workbook when GUI access is available. Preserve all learner edits/baselines and explicitly label assistance. Do not restart implementation or automatically solve an exercise.
 
 ## Builder entry format
 
@@ -43,3 +43,18 @@ Both bounded performance questions measured on separate release binaries, raw re
 ## Public handoff delivered; private B0 validated
 
 Public tag `public-v1` at **7d0759ca9535ea10d056400a9db435212c4d67c8** pushed and handed over immediately before private work. Independent private sibling created; hosting visibility checked **PRIVATE**. Allowlisted source import and immutable baseline identities verified locally (38 files, independent root, no inherited public ancestry); details stay in the private implementation ledger. B1/B2/B3 delegated with exclusive ownership and common manifest interface. Static CLion 2026.2.1 config/plugin-key checks passed; the read-only GUI-access probe timed out, so actual interactive acceptance remains **not run**. No learner attempts, private source/answer content or personal preparation records copied here or to the public tools repository.
+
+## Private content/component verification
+
+Private B1 author sequence passed: 18 cumulative tasks, all intended failures detected, all incremental checks and unchanged product tests pass in dev/release, including prerequisite-only replay. The full private catalog has 25 tasks (18 core + six numerical + one original independent DSA sample) and passed metadata/assessment-path validation. An isolated composite passed 32/32 dev/release/ASan/UBSan and 3/3 TSan checks. A subsequent numerical boundary review found an issue not exposed by those passes; correction/reverification is in progress before baseline pinning. Detailed evidence and all private source/assessment content remain only in the private repository. Companion durability/privacy verification and GUI acceptance are not yet complete; public release remains unchanged and verified.
+
+## Final implementation handoff — 2026-10-27
+
+- Public tools remain at tag **public-v1**, commit **7d0759ca9535ea10d056400a9db435212c4d67c8**, confirmed PUBLIC, clean local/remote main. Both Linux and macOS reference results and raw measurements are retained in that repository; no private materials were added.
+- Private prepared workbook published only to its checked PRIVATE main, receipt **fa67cc53c80f8c77095c354593c911fb6ddf6cc6**. Immutable workbook-start **61998962a9ae99b595a66d07d3df0415a7f68cb4** and independent imported-reference **e84127ea694244db416ee6eaa64f19cd38181185** preserved, explicitly recorded and revalidated. No learner attempt branch, personal notes or generated context/dashboard was pushed.
+- Corrected numerical boundary handling passed constant-evaluation and Debug/Release/ASan/UBSan verification. Final complete author composite: **32/32** tests each dev/release/ASan/UBSan, **3/3** TSan, plus protected numerical assessments. Full untouched starter builds and registers 32 tests; pending learner behavior remains explicit, not falsely marked passed.
+- Generic companion final suite: **37/37**, zero skipped; actual-catalog E01/D01 terminal workflow passed seven labelled author-fixture operations, including source/checkpoint/result identity, build-failure tests-not-run, independent-task reuse, archive fallback, comparison/context and branch/index/baseline preservation. Exact private implementation/test/assessment identities and commands stay in the private evidence/ledger. All live learner attempts remain empty and competence dimensions unknown.
+- Initial private dashboard/context generated successfully with pinned baseline and E01 next action, without starting a study session or checking a live exercise. No automatic external upload or attempt push implemented.
+- **Remaining required gate: CLion interactive demonstration not run.** Installed 2026.2.1 static configs/plugin keys and terminal wrapper behavior passed, but read-only GUI-access probe timed out. No OS/IDE security permissions changed. Private Linux and Python 3.10 runtime are also not run (Python 3.10 grammar checked; native private verification used macOS ARM64/Python 3.14.8). These are explicit limits, not passes.
+
+Handoff details/first-run commands/CLion setup/actual evidence: private README.md, docs/RESULTS.md, docs/WORKFLOW.md, docs/CLION.md and progress.md. Implementation results are distinct from independent learning; no active learner task was completed automatically. Full B4 acceptance is deliberately not claimed.
