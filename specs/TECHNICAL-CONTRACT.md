@@ -2,6 +2,10 @@
 
 Implement the following end to end. Start with read-only discovery, write a concise phased implementation plan with exact files/interfaces/checks, then execute it in verified slices. Resolve routine choices yourself and continue; ask only for a genuinely missing credential, a destructive operation, or a material scope conflict. Do not stop after producing another plan.
 
+## Required memory extension — 2026-10-27
+
+The authorized memory-layout and allocator addition is specified in [MEMORY-ALLOCATION.md](MEMORY-ALLOCATION.md). It is required within the Inspector/reference and private workbook: explicit padding/sizeof/alignof/offsetof, a caller-buffer bump allocator, a fixed-slot free-list pool, allocation/deallocation costs and fragmentation, and std::pmr resources/containers. Implement M01–M05 through existing reporting/tests/tracking. Preserve all completed releases and original baselines; do not restart finished work or infer independent learning from author code. For an already implemented workspace, follow [the memory extension prompt](../OPENCODE_MEMORY_EXTENSION.md).
+
 ## Purpose, repositories and delivery order
 
 Build TWO SMALL, COMPLETE PUBLIC SOFTWARE PROJECTS. The lab/puzzle method is private, for reconstructing the code afterward. Build usable tools with clear commands and outputs, rather than a public course or collection of incomplete exercises.
@@ -191,3 +195,4 @@ Check the installed CLion version against official documentation; these referenc
 - https://www.jetbrains.com/help/clion/settings-tools-external-tools.html
 - https://www.jetbrains.com/help/clion/editing-html-files.html
 - https://git-scm.com/docs/git-worktree
+

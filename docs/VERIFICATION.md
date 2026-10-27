@@ -50,3 +50,10 @@ For each phase, report:
 5. Remaining issues/capability limits and one next action.
 
 Implementation completion and learner evidence remain separate. Update the dated ledger; preserve failed and superseded attempts.
+
+## Required memory extension checks
+
+The exact acceptance cases live in [MEMORY-ALLOCATION.md](../specs/MEMORY-ALLOCATION.md). Verify measured standard-layout offsets/padding/stride; buffer alignment and payload accounting; exact-fit/huge/invalid/exhausted allocations preserving state; raw storage and nontrivial lifetime counters; fixed-slot reuse and safe invalid-release rejection; PMR hard-cap/fallback/resource ownership; comparable costs and correctly labeled fragmentation/retention metrics.
+
+Use deterministic tests and relevant existing regressions in supported dev/release/ASan/UBSan configurations. Run the extended private author chain and capture/export-exclusion regressions through the current companion. No stale-pointer dereference or invalid standard-resource deallocation is an acceptable negative test. Record source/test/assessment identities, actual evidence and unavailable platforms. Preserve old release and starter pins; new tasks/extension tests need distinct versions. Specification publication is not an implementation pass or independent learner gap closure.
+

@@ -18,6 +18,10 @@ One specimen across two translation units with global, automatic and dynamic obj
 
 `PGM` remains unresolved. Intentional protection failures, if provided, are opt-in disposable-child demonstrations outside normal and sanitizer suites.
 
+## Required memory-layout and allocation extension
+
+Implement [MEMORY-ALLOCATION.md](MEMORY-ALLOCATION.md) in this same tool. Add measured sizeof/alignof/offsetof and internal/tail-padding maps; a bounded buffer-backed bump arena and fixed-slot pool with explicit alignment/lifetime/failure behavior; std::pmr container/resource demonstrations; allocation-cost counters and a small labeled fragmentation model. Public references/reports are complete software; learner reconstruction/answers/attempts remain private. Preserve the existing release and its evidence.
+
 ## Workloads and concurrency
 
 Compare AoS/SoA and shared/adjacent/spaced/local aggregation with equivalent defined work and independent result checks. Use runtime inputs, defined unsigned arithmetic and observable checksums. Exclude setup/warm-up from measured work according to a declared boundary.
@@ -35,8 +39,10 @@ Discover supported timing, tracing, sampling and counter capabilities. An unavai
 - [ ] One documented specimen-to-report entry point with useful output and errors.
 - [ ] Inspectable build/link/load artifacts and a deliberate, diagnosed link failure.
 - [ ] Actual object-layout/call/memory observations separated from language guarantees and models.
+- [ ] M01–M05 memory extension: layout/padding maps, buffer arena, fixed pool, PMR policies/lifetimes and cost/fragmentation evidence satisfy their detailed acceptance contracts.
 - [ ] Equivalent workload results checked independently before timing comparisons.
 - [ ] Queue exact-once, capacity, closure/drain, blocked-producer/consumer wakeup and worker-join checks.
 - [ ] Sanitizer support matrix and actual outcomes, including unsupported cases.
 - [ ] One honest CPU/concurrency investigation and reproducible raw data.
 - [ ] Public purpose, features, quick start, output, architecture, tests/results and limitations.
+

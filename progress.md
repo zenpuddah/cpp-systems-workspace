@@ -4,7 +4,7 @@ Last updated: 2026-10-27.
 
 ## Current state
 
-This workspace contains technical specifications and implementation progress only. Public implementation is underway in the independent sibling `../cpp-systems-tools`; private work is deferred until verified public delivery. No learner competence or interactive IDE completion is claimed.
+This workspace contains technical specifications and implementation progress. The dated ledger below records original public/private implementation results; the newly authorized memory extension is required and not yet implemented/assessed in this update. Existing results remain scoped to their recorded revisions. No learner competence or interactive IDE completion is inferred.
 
 | Slice | Status | Evidence |
 | --- | --- | --- |
@@ -15,10 +15,11 @@ This workspace contains technical specifications and implementation progress onl
 | A6 Public verification and handoff | Passed and handed over | public-v1 at 7d0759ca9535ea10d056400a9db435212c4d67c8 |
 | B0–B2 Private reference/workbook/Q cards | Passed | Independent reference/starter pinned; 25-task catalog and corrected author sequence verified |
 | B3–B4 Companion/reuse/CLion | B3/CLI reuse/static checks passed; GUI gate pending | 37 companion tests; actual-catalog workflow; interactive UI not run |
+| M01–M05 Memory layout/allocator extension | Required; newly specified; implementation not run here | specs/MEMORY-ALLOCATION.md; learner checks not assessed |
 
 ## One next action
 
-Perform and record the required CLion interactive workflow in the private workbook when GUI access is available. Preserve all learner edits/baselines and explicitly label assistance. Do not restart implementation or automatically solve an exercise.
+Execute `OPENCODE_MEMORY_EXTENSION.md`: inspect existing work and implement the focused memory extension with the current tests/reporting/companion. Preserve completed public/private releases, old task IDs, learner edits and original baselines. The previously pending CLion interactive workflow remains an open acceptance gate; demonstrate and record it only when GUI access is available. Do not automatically solve a learner exercise.
 
 ## Builder entry format
 
@@ -58,3 +59,8 @@ Private B1 author sequence passed: 18 cumulative tasks, all intended failures de
 - **Remaining required gate: CLion interactive demonstration not run.** Installed 2026.2.1 static configs/plugin keys and terminal wrapper behavior passed, but read-only GUI-access probe timed out. No OS/IDE security permissions changed. Private Linux and Python 3.10 runtime are also not run (Python 3.10 grammar checked; native private verification used macOS ARM64/Python 3.14.8). These are explicit limits, not passes.
 
 Handoff details/first-run commands/CLion setup/actual evidence: private README.md, docs/RESULTS.md, docs/WORKFLOW.md, docs/CLION.md and progress.md. Implementation results are distinct from independent learning; no active learner task was completed automatically. Full B4 acceptance is deliberately not claimed.
+
+## 2026-10-27 — Required memory gap extension specified
+
+User authorized explicit internal/tail padding, sizeof/alignof/offsetof, buffer-backed allocation, allocation/deallocation costs, fragmentation, pools/arenas and std::pmr. Added required M01–M05 acceptance contracts and a delta OpenCode prompt. Existing public-v1 and original private reference/starter identities are preserved; the five tasks are additive through the existing companion. The public specifications include no personal learner records or author answers. This entry records a requirements update only: no new allocator code/tests, benchmarks or independent learner pass occurred in this update. All new learner checks begin not assessed. Existing CLion interactive limitation remains open.
+

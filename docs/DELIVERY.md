@@ -33,3 +33,18 @@ Interpretation of the existing contract: approximately 18 project exercises **pl
 ## Progress discipline
 
 Update this workspace's [implementation ledger](../progress.md) and each target's `progress.md` after verified slices. A failed step has a concrete result and one next action. Keep learned competence separate from implementation completion. Preserve source, test and assessment identities; record unavailable and not-run checks without converting them to passes.
+
+## Required extension — M01–M05
+
+The authorized [memory allocation extension](../specs/MEMORY-ALLOCATION.md) follows existing completed work. Run the [delta prompt](../OPENCODE_MEMORY_EXTENSION.md), not the original bootstrap again.
+
+| Slice | New deliverable | Required evidence |
+| --- | --- | --- |
+| M01 | Actual struct layout/alignment/internal-tail padding maps | Portable fixture constraints, measured offsets/sizes/stride and labeled ABI |
+| M02 | Caller-buffer bump arena and explicit object lifetimes | Alignment/slack/overflow/exhaustion/state-preservation and construction/destruction tests |
+| M03 | Bounded fixed-slot free-list pool | Reclamation/reuse, metadata/stride accounting and safe invalid-free rejection |
+| M04 | PMR containers/resources and upstream policies | Counting-resource evidence, hard-cap/fallback, object/resource lifetimes |
+| M05 | Allocation-cost investigation and fragmentation model | Equivalent work/raw samples, defined storage metrics, total/largest free-block trace |
+
+Complete/verify the public reference and report extension, then pin a new extension reference and add five prepared private tasks through the existing companion. Preserve public-v1 and all earlier immutable private baselines/task IDs. New implementation/learner statuses start not run/not assessed; the old evidence remains evidence for its original scope. The unresolved CLion interactive gate remains visible.
+

@@ -1,5 +1,7 @@
 # OpenCode starting prompt
 
+**Resume check first:** read `progress.md`. If the original tools/workbook are already implemented, execute [OPENCODE_MEMORY_EXTENSION.md](OPENCODE_MEMORY_EXTENSION.md) for the newly required memory scope and preserve all completed work/baselines. Do not repeat the original build-from-scratch plan. The extension contract is [specs/MEMORY-ALLOCATION.md](specs/MEMORY-ALLOCATION.md). The original bootstrap instructions follow for work that is actually missing.
+
 Implement the C++ systems tools and subsequent private workbook specified in this repository. Read `AGENTS.md`, the full `specs/TECHNICAL-CONTRACT.md`, the three focused specs, `docs/DELIVERY.md`, `docs/VERIFICATION.md`, `docs/REPOSITORIES.md` and `progress.md`.
 
 This is an execution request. Begin with read-only discovery of existing files/specifications, applicable AGENTS instructions, Git state/remotes, compiler/CMake/Python versions and actual OS/ISA/profiling capabilities. Preserve existing work. Resolve routine implementation choices yourself and document them. Ask only for blocking credentials, destructive actions or material scope conflicts. Do not modify unrelated projects.
@@ -24,3 +26,4 @@ The full technical contract defines the exact checks, capture/history boundaries
 Update this repository's `progress.md` and the target repositories' `progress.md` after every verified slice. Record exact source/test/assessment identity, command, result, limitations and one next action. Keep implementation completion separate from independent learning. Delegate independent tasks only with explicit file ownership. If interrupted, leave exact state and the next command so the next run resumes instead of starting over.
 
 Begin discovery and implementation now.
+

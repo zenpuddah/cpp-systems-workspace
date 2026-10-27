@@ -2,6 +2,10 @@
 
 Read `OPENCODE_START.md`, `specs/TECHNICAL-CONTRACT.md`, `docs/DELIVERY.md`, `docs/VERIFICATION.md` and `progress.md` before implementation.
 
+## Required extension and resume behavior
+
+Read `progress.md` before choosing work. The mandatory memory extension is `specs/MEMORY-ALLOCATION.md`; when the original public/private implementation is already present, use `OPENCODE_MEMORY_EXTENSION.md` and implement only the delta. Preserve old release/reference/workbook-start identities, learner edits and history. The five new memory tasks do not reopen or replace completed original slices. Keep the CLion interactive gate pending until demonstrated.
+
 ## Execute the existing scope
 
 This is an implementation request, not a request for another product brainstorm. Discover existing files, applicable AGENTS instructions, Git/remotes and actual tool/platform capabilities. Preserve existing work and inspect matching repositories before creating duplicates. Write a concise executable plan with concrete files/interfaces/tests, then implement and verify slices. Resolve ordinary design choices yourself; ask only about a blocking credential, destructive operation or material scope conflict.
@@ -25,3 +29,4 @@ Record actual source/test/assessment identities, commands, exit status, OS/ISA/c
 Respect configured Git identity/signing/hooks and preserve editing branches/indexes. Use the contract's explicit archive fallback for private attempts when Git recording fails; never invent identities or rewrite user history.
 
 Update `progress.md` and each target repository's `progress.md` after verified slices. Keep one next action and enough state for a later agent to resume. No early unsolicited hints or completion of active learner exercises during independent practice.
+

@@ -10,6 +10,12 @@ Approximately 18 focused core exercises cover meaningful implementation gaps, de
 
 Keep reference solutions/oracle implementations outside learner capture, exports and attempt-history ancestry. They may exist in an author-only private area; private visibility alone does not make leaking an answer acceptable.
 
+## Required memory tasks M01–M05
+
+Add the five tasks specified in [MEMORY-ALLOCATION.md](MEMORY-ALLOCATION.md): M01 layout/alignment/padding; M02 caller-buffer bump allocation and lifetime; M03 fixed-slot individual reclamation; M04 std::pmr resources, fallback and lifetimes; M05 cost/fragmentation investigation. Preserve the original core/Q/DSA catalog IDs, task/test versions and learner work. These memory tasks are additional requirements, not replacements or evidence of learner mastery.
+
+Reuse the current manifests, immutable source/history/assessment pipeline, hints and transfer checks. Validate author solutions separately. Keep original imported-reference/workbook-start pins intact; derive a distinct versioned extension starter/reference from the completed new public extension. Do not reset live learner files to either an author solution or the new starter. Verify the compatible prerequisite state for joining the extension.
+
 ## Numerical cards
 
 Add these six small private C++20 cards using the same harness and history:
@@ -55,3 +61,4 @@ Export bounded private Markdown/JSON context with relevant learner edits, source
 - [ ] CLion configuration validated and the actual IDE workflow demonstrated. If the IDE is unavailable, record that limit and leave the demonstration acceptance item pending.
 
 The full contract's required end-to-end demo is: select a lesson → tracked failure → inspect feedback/history → learner edit → tracked check → compare → export context → resume. Do not claim an IDE demo from documentation alone.
+
