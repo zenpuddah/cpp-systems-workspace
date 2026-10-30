@@ -2,6 +2,10 @@
 
 Read `OPENCODE_START.md`, `specs/TECHNICAL-CONTRACT.md`, `docs/DELIVERY.md`, `docs/VERIFICATION.md` and `progress.md` before implementation.
 
+## Learner tracking across projects
+
+Personal preparation tracking is maintained in a separately authorized private preparation repository. Consult the private workbook's `AGENTS.md` for that shared tracking source before resuming learner practice or reporting learner progress. Keep technical delivery status in this workspace's `progress.md`; do not copy private learner records into this public repository.
+
 ## Required extension and resume behavior
 
 Read `progress.md` before choosing work. The mandatory memory extension is `specs/MEMORY-ALLOCATION.md`; when the original public/private implementation is already present, use `OPENCODE_MEMORY_EXTENSION.md` and implement only the delta. Preserve old release/reference/workbook-start identities, learner edits and history. The five new memory tasks do not reopen or replace completed original slices. Keep the CLion interactive gate pending until demonstrated.
